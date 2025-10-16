@@ -27,7 +27,7 @@ pip install -e .
 
 The 3-DOF system consists of **three lumped masses** connected by linear **springs** and **dampers**, as shown below:
 
-![3DOF system schematic](docs/3dof_system.png)
+![3DOF system schematic](doc/3dof_system.png)
 
 ---
 
@@ -74,4 +74,4 @@ This package was developed for the **Bruface Mechanical Vibrations Course** (Aca
 
 Author: **Abdulelah Al-Ghuwaidi**
 Affiliation: Vrije Universiteit Brussel (VUB)
-📧 [abdulelah.abdullah.saleh.al-ghuwaidi@vub.be](mailto:abdulelah.abdullah.saleh.al-ghuwaidi@vub.be)
+[abdulelah.al-ghuwaidi@vub.be](mailto:abdulelah.al-ghuwaidi@vub.be)
