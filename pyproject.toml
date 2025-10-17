@@ -3,13 +3,20 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "three-dof-anim"                # package name on PyPI (use hyphen)
+name = "three-dof-anim"
 version = "0.1.0"
 description = "Create and save 3-DOF system animations (matplotlib)"
 readme = "README.md"
-authors = [{name="Abdulelah Al-Ghuwaidi", email="abdulelah.al-ghuwaidi@vub.be"}]
+authors = [{name = "Abdulelah Al-Ghuwaidi", email = "abdulelah.al-ghuwaidi@vub.be"}]
 license = {text = "MIT"}
-dependencies = ["numpy>=1.19", "matplotlib>=3.3", "pillow>=8.0"]
+dependencies = [
+    "numpy>=1.19",
+    "matplotlib>=3.3",
+    "pillow>=8.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [project.urls]
-"Homepage" = "https://github.com/<Abdulelah96>/three_dof_anim"
+"Homepage" = "https://github.com/Abdulelah96/three_dof_anim"
