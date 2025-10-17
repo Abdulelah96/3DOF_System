@@ -3,6 +3,9 @@
 A lightweight Python package to **simulate and animate a 3-DOF mass–spring–damper system** under arbitrary excitation forces (sine, chirp, etc.).
 It is designed for educational use and visualization of dynamic systems.
 
+![3DOF system animation](doc/mode2.gif)
+
+
 ---
 
 ## Installation
@@ -73,5 +76,6 @@ save_gif(ani, 'three_dof_demo.gif')
 This package was developed for the **Bruface Mechanical Vibrations Course** (Academic Year 2025–2026) to support interactive demonstrations and exercises.
 
 Author: **Abdulelah Al-Ghuwaidi**
-Affiliation: Vrije Universiteit Brussel (VUB)
+
+, Vrije Universiteit Brussel (VUB)
 [abdulelah.al-ghuwaidi@vub.be](mailto:abdulelah.al-ghuwaidi@vub.be)
