@@ -12,11 +12,12 @@ license = {text = "MIT"}
 dependencies = [
     "numpy>=1.19",
     "matplotlib>=3.3",
-    "pillow>=8.0"
+    "pillow>=8.0",
+    "scipy>=1.6"
 ]
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [project.urls]
-"Homepage" = "https://github.com/Abdulelah96/three_dof_anim"
+"Homepage" = "https://github.com/Abdulelah96/3DOF_System"

@@ -10,22 +10,9 @@ It is designed for educational use and visualization of dynamic systems.
 
 ## Installation
 
-### Option 1 — From GitHub (recommended during development)
-
 ```bash
 pip install git+https://github.com/Abdulelah96/3DOF_System.git
 ```
-
-### Option 2 — Local install (if cloned)
-
-```bash
-git clone https://github.com/Abdulelah96/3DOF_System.git
-cd 3DOF_System
-pip install -e .
-```
-
----
-
 ## System Overview
 
 The 3-DOF system consists of **three lumped masses** connected by linear **springs** and **dampers**, as shown below:
@@ -37,11 +24,11 @@ The 3-DOF system consists of **three lumped masses** connected by linear **sprin
 ## Quick Example
 
 ```python
-from three_dof_anim.animation import make_animation, save_gif
+from three_dof_system.animation import make_animation, save_gif
 import numpy as np
 
 # Example time vector and displacements
-t = np.linspace(0, 10, 201)
+t = np.linspace(0, 10, 100)
 x_t = np.vstack([
     0.1 * np.sin(2*np.pi*0.5*t),
     0.05 * np.sin(2*np.pi*0.8*t + 0.3),
